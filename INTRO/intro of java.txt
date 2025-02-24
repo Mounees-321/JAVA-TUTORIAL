@@ -1,0 +1,47 @@
+1 . Java's journey began with the Green Team, a group within Sun Microsystems led by James Gosling.
+
+3 billion devices run Java
+
+Types of Java Applications
+Standalone Application – Traditional desktop applications that run on individual machines (e.g., Media Player, Antivirus). Built using AWT and Swing.
+Web Application – Runs on a server and generates dynamic web pages. Built using Servlets, JSP, Spring, Struts, Hibernate, JSF, etc.
+Enterprise Application – Large-scale distributed applications like banking systems with features like security and load balancing. Built using EJB.
+Mobile Application – Applications for mobile devices, mainly developed using Android and Java ME.
+
+Java supports compiler and interpreter
+
+(Compiler: Like translating an entire book before reading.
+Interpreter: Like translating each sentence while reading.)
+
+Difference Between JDK, JRE, and JVM
+JVM (Java Virtual Machine)
+
+An abstract machine that executes Java bytecode.
+Provides a runtime environment by loading, verifying, and executing code.
+Platform-dependent but enables Java to be platform-independent.
+JRE (Java Runtime Environment)
+
+A set of tools that provides the runtime environment for Java applications.
+Contains JVM + libraries required for execution.
+Physically exists and is used to run Java programs.
+JDK (Java Development Kit)
+
+A complete software development kit for Java applications.
+Contains JRE + development tools (compiler, debugger, documentation generator, etc.).
+Used to develop and compile Java programs.
+
+To compile:
+javac Hello.java
+To execute:
+java Hello
+
+When we compile Java program using javac tool, the Java compiler converts the source code into byte code.
+
+class: Used to declare a class in Java.
+public: An access modifier that makes the method visible to all.
+static: Allows a method to be called without creating an object, saving memory.
+void: Specifies that the method does not return any value.
+main(): The entry point of a Java program.
+String[] args: Used to handle command-line arguments.
+System.out.println(): Prints output to the console; System is a class, out is a PrintStream object, and println() is a method of PrintStream.
+ 
