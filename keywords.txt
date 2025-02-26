@@ -1,0 +1,47 @@
+
+Java has 50 reserved keywords
+
+
+💡 Most Commonly Used in Coding
+✔️ public, static, void, int, double, if, else, for, while, return, class, new, try, catch, extends, implements
+
+1️⃣ Data Types & Variables
+int, double, char, boolean, float, long, byte, short → Primitive data types
+class → Defines a class
+interface → Defines an interface
+static → Used for class-level methods and variables
+final → Makes a variable constant, prevents method overriding & inheritance
+
+2️⃣ Control Flow (Loops & Conditions)
+if, else, switch, case → Conditional statements
+for, while, do → Looping structures
+break, continue → Control loop execution
+
+return → Exits from a method and returns a value
+3️⃣ Object-Oriented Programming (OOP)
+new → Creates objects
+extends → Inheritance (Parent-Child relationship)
+implements → Implements an interface
+this → Refers to the current object
+super → Refers to the parent class
+abstract → Defines an abstract class or method
+instanceof → Checks object type
+
+4️⃣ Exception Handling
+try, catch, finally → Handle exceptions
+throw → Manually throw an exception
+throws → Declares exceptions in a method signature
+
+5️⃣ Multi-threading & Synchronization
+synchronized → Ensures thread safety
+volatile → Prevents caching of variables across threads
+
+6️⃣ Miscellaneous
+void → Specifies no return type for a method
+import → Imports Java libraries
+package → Defines a package (folder structure)
+default → Used in interfaces and switch cases
+public, private, protected → Access modifiers
+enum → Defines constants
+transient → Prevents serialization of a variable
+assert → Used for debugging (Assertions)
